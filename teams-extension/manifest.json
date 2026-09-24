@@ -1,0 +1,53 @@
+{
+  "manifest_version": 3,
+  "name": "MSTeamsKeeper",
+  "version": "2.0.0",
+  "description": "Are you using the web version of MS Teams? Locks your web status to 'Available' while you work in other tabs.",
+  "author": "schema/f",
+  "homepage_url": "https://github.com/Flx-xlF",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "MSTeamsKeeper"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://teams.microsoft.com/*",
+        "*://teams.live.com/*",
+        "*://teams.cloud.microsoft/*",
+        "*://teams.microsoft.us/*",
+        "*://gov.teams.microsoft.us/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "*://teams.microsoft.com/*",
+        "*://teams.live.com/*",
+        "*://teams.cloud.microsoft/*",
+        "*://teams.microsoft.us/*",
+        "*://gov.teams.microsoft.us/*"
+      ],
+      "js": ["bridge.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": true
+    }
+  ]
+}
