@@ -87,30 +87,37 @@ MSTeamsKeeper operates natively within the browser using Manifest V3:
 
 ## 🚀 Installation Guide
 
-### Option A: Install Extension in Chrome / Edge / Brave
+### Option A: Browser Extension (Chrome, Edge, Brave, Opera)
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/Flx-xlF/MSTeamsKeeper.git
-   ```
-2. Open your Chromium-based browser and navigate to the extensions page:
+#### Step 1: Get the Code
+* **Via Git**:
+  ```bash
+  git clone https://github.com/Flx-xlF/MSTeamsKeeper.git
+  ```
+* **Or as a ZIP**: Click the green **Code** button at the top of this repository > **Download ZIP**, then extract it.
+
+#### Step 2: Load into Browser
+1. Open your browser's extension management page:
    - **Google Chrome**: `chrome://extensions/`
    - **Microsoft Edge**: `edge://extensions/`
    - **Brave**: `brave://extensions/`
-3. Enable **Developer mode** (toggle switch in the top-right or sidebar).
-4. Click **Load unpacked**.
-5. Select the **`teams-extension`** directory inside this repository.
-6. Open or reload [teams.microsoft.com](https://teams.microsoft.com).
-7. Click the **MSTeamsKeeper** icon in your browser toolbar to verify it's **Active**!
+2. Enable **Developer mode** (toggle switch located in the top-right corner on Chrome/Brave, or bottom-left on Edge).
+3. Click the **Load unpacked** button.
+4. Select the **`teams-extension`** directory inside this repository.
+
+#### Step 3: Pin & Verify
+1. Click the **Extensions puzzle piece icon (🧩)** in your browser toolbar and **pin** 📌 MSTeamsKeeper.
+2. Navigate to (or refresh) [teams.microsoft.com](https://teams.microsoft.com) or [teams.cloud.microsoft](https://teams.cloud.microsoft).
+3. Click the MSTeamsKeeper icon—the status indicator should show a green **Active** dot!
 
 ---
 
 ### Option B: Standalone Python Script (macOS Only)
 
-If you prefer running a terminal script for Microsoft Edge without installing an unpacked extension:
+If you prefer running a background terminal daemon for Microsoft Edge without installing an unpacked browser extension:
 
-1. Enable JavaScript Apple Events in Edge:
-   - Edge > **View** > **Developer** > **Allow JavaScript from Apple Events**.
+1. Enable AppleScript JavaScript in Microsoft Edge:
+   - In Edge's top menu bar: **View** > **Developer** > check **Allow JavaScript from Apple Events**.
 2. Open Teams in Microsoft Edge.
 3. Run the script:
    ```bash
