@@ -9,8 +9,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Author](https://img.shields.io/badge/Dev-schema%2Ff-indigo)](https://github.com/Flx-xlF)
 
-**Are you using the web version of Microsoft Teams? This lightweight extension locks your web status to 'Available' while you work in other tabs.**
-
 ---
 
 ## 🎯 The Problem
