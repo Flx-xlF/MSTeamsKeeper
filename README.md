@@ -37,8 +37,7 @@ When using Microsoft Teams in the browser, the web client continuously monitors 
   - `teams.microsoft.com`
   - `teams.cloud.microsoft` *(Microsoft 365 Unified Domain)*
   - `teams.live.com` *(Personal accounts)*
-  - `teams.microsoft.us` *(US Government Community Cloud)*
-  - `gov.teams.microsoft.us` *(US Department of Defense)*
+  - ...
 - 🔒 **Zero Telemetry & 100% Private**: Runs entirely locally in your browser. No analytics, no tracking, no external API calls.
 - 🐍 **Standalone Python Script Included**: Prefer not to use a browser extension? A macOS AppleScript/Python daemon (`teams_keeper.py`) is also included.
 
