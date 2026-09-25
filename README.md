@@ -2,7 +2,7 @@
 
 > **Built with care (and a bit of madness) by [schema/f](https://github.com/Flx-xlF)**
 
-### *Are you using the web version of Microsoft Teams? This lightweight extension locks your web status to 'Available' while you work in other tabs.*
+### *Are you using the web version of Microsoft Teams? This lightweight extension locks your web status to 'Available' while you work in other tabs or apps.*
 
 [![Manifest V3](https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-blue?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![Microsoft Teams](https://img.shields.io/badge/Microsoft%20Teams-Web%20App-5B5FC7?logo=microsoftteams&logoColor=white)](https://teams.microsoft.com)
