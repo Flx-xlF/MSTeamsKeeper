@@ -21,7 +21,7 @@ When using Microsoft Teams in the browser, the web client continuously monitors 
 * 😰 **False Appearance of Inactivity**: Although you are actively working, your status signals to colleagues and managers that you stepped away from your desk.
 * ❌ **Clumsy Workarounds**: Physical mouse jigglers or blunt OS-level scripts hijack your real mouse cursor, break your typing flow, and risk triggering corporate IT alerts.
 
-**MSTeamsKeeper locks your web status to 'Available' while you work in other tabs**: It operates at the browser DOM level, keeping the Teams web client permanently active and focused without moving your real cursor or stealing window focus.
+**MSTeamsKeeper locks your web status to 'Available' while you work in other tabs or apps**: It operates at the browser DOM level, keeping the Teams web client permanently active and focused without moving your real cursor or stealing window focus.
 
 ---
 
