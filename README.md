@@ -141,4 +141,4 @@ This project is created for educational and personal productivity purposes to ma
 ---
 
 Built with care (and a bit of madness) by [schema/f](https://github.com/Flx-xlF).  
-☕ Enjoy my work? [Tip me on Ko-fi](https://ko-fi.com/flxxlf)
+☕ Enjoy my work? [Tip me on Ko-fi](https://ko-fi.com/flxxlf).
