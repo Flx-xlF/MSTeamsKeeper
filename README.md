@@ -140,8 +140,5 @@ This project is created for educational and personal productivity purposes to ma
 
 ---
 
-## 👨‍💻 Author
-
-**schema/f**  
-GitHub: [@Flx-xlF](https://github.com/Flx-xlF)  
-*Built with care (and a bit of madness).*
+Built with care (and a bit of madness) by [schema/f](https://github.com/Flx-xlF).  
+☕ Enjoy my work? [Tip me on Ko-fi](https://ko-fi.com/flxxlf)

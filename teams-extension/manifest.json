@@ -5,6 +5,15 @@
   "description": "Are you using the web version of MS Teams? Locks your web status to 'Available' while you work in other tabs.",
   "author": "schema/f",
   "homepage_url": "https://github.com/Flx-xlF",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "msteamskeeper@schema-f.github.io",
+      "strict_min_version": "120.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",

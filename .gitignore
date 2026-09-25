@@ -20,3 +20,8 @@ venv/
 .vscode/
 .idea/
 .gemini/
+
+# Build artifacts
+release/
+*.zip
+
